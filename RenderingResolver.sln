@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{EBD32547-E4EC-47C5-AD12-0188C2ECE110}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{284C1E9C-9BD5-43BD-ADE2-8F5EFDC868D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicContent", "{95F819E0-F5B2-43E1-B28D-D694AB08C7F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderingResolver", "src\Feature\BasicContent\website\RenderingResolver.csproj", "{D0FBFFE6-5366-48F3-A246-8E43DFEA7F7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0FBFFE6-5366-48F3-A246-8E43DFEA7F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FBFFE6-5366-48F3-A246-8E43DFEA7F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FBFFE6-5366-48F3-A246-8E43DFEA7F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FBFFE6-5366-48F3-A246-8E43DFEA7F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95F819E0-F5B2-43E1-B28D-D694AB08C7F1} = {EBD32547-E4EC-47C5-AD12-0188C2ECE110}
+		{D0FBFFE6-5366-48F3-A246-8E43DFEA7F7E} = {95F819E0-F5B2-43E1-B28D-D694AB08C7F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7C4987-3A11-41A9-8915-5457EF7B5A6F}
+	EndGlobalSection
+EndGlobal
